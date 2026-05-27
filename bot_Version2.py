@@ -1,3 +1,41 @@
+import sys
+import traceback
+
+try:
+    # ... باقي الكود
+except Exception as e:
+    printادة)
+
+### 2️⃣ إذا فيه مشكلة عدّل الملف:
+
+1. في GitHub اضغط على `requirements.txt`
+2. اضغط **Edit** (الأيقونة ب Discord Developer Portal مباشرة)
+4. اضغط **Add**
+
+---
+
+### بعدين:
+
+1. اضغط **Redeploy** 
+2. انتظر 30 ثانية
+3. شيك الـ **Logs** مرة ثانية
+
+---
+
+## سؤال:
+
+**و أخطاء**
+
+---
+
+## إذا في خطأ في requirements.txt:
+
+جرّب استبدل المحتوى بهذا:
+
+```txt
+discord.py==2.3.2
+python-dotenv==1.0.0
+aiohttp==3.8.5
 import discord
 from discord.ext import commands
 import os
